@@ -7,6 +7,6 @@ implemented now.
 The other basic function including rating, commenting applicants has already been implemented.
 
 The service is already deloyed onto AWS. The public Address is http://54.242.195.155:8080/, you could access the server page by inputing the IP Address into
-your chrome
+your chrome.
 
 To Install backend on your local machine, you need to have springboot environment and mysql. Please set mysql database root user's password to be 'admin', Then execute the init.sql file. Finally, you could set the backend part by simply typing java -jar kanbanboard-0.0.1-SNAPSHOT.jar, the jar file is under the /src/main/resource path. Backend part should be set and started before the frontend part.
